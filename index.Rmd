@@ -1,29 +1,33 @@
 ---
-title: "I have the best titles"
-author: Your name here
-subtitle: Subtitle here if desired
+title: "Establishing Floodzones and Potential Constructed Wetlands for Wastewater Management"
+author: Kaitlin Walsh
+subtitle: A study of Seneca Nation
 ---
 
 # Introduction
-My really awesome and complete introduction will go here.  
+Problem-
+Objective-
+Method-
+Results-
+Significance-
 
-> I know words.  I have the best words.  ~ Donald Trump
+
 
 # Materials and methods
 
 Narrative and most code will go here.  Describe what you are doing and show how to do it (with code).
 
-You can do bullets like this:
 
-* The first most important thing
-* The second most important thing
-* The third most important thing
 
-You can do numbers like this:
+* Joining CUGIR elevation shapefiles
+* Filtering elevations
+* Filtering for precipitation
+* Establishing Flood Zones in Seneca Nation
+* Filtering by soil type
+* Filtering by vegetation type
+* Creating possible wetland areas by selection/joining of filtered topics 
 
-1. The first most important thing
-2. The second most important thing
-3. The third most important thing
+
 
 See [http://rmarkdown.rstudio.com/](http://rmarkdown.rstudio.com/) for all the amazing things you can do.
 
@@ -39,7 +43,7 @@ Load any required packages in a code chunk (you may need to install some package
 library(dplyr)
 library(ggplot2)
 library(maps)
-library(spocc)
+#library(spocc)
 knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compiling
 ```
 
@@ -54,18 +58,18 @@ We are going to use the `occ()` function to download _occurrence_ records for th
 sp='Turdus migratorius'
 
 ## run the query and convert to data.frame()
-d = occ(query=sp, from='ebird',limit = 100) %>% occ2df()
+#d = occ(query=sp, from='ebird',limit = 100) %>% occ2df()
 ```
 This can take a few seconds.
 
 ```{r, fig.width=6, fig.height=3, fig.cap="Map illustrating the known occurrence locations"}
 # Load coastline
-map=map_data("world")
+#map=map_data("world")
 
-ggplot(d,aes(x=longitude,y=latitude))+
-  geom_polygon(aes(x=long,y=lat,group=group),data=map)+
-  geom_point(col="red")+
-  coord_equal()
+#ggplot(d,aes(x=longitude,y=latitude))+
+#  geom_polygon(aes(x=long,y=lat,group=group),data=map)+
+#  geom_point(col="red")+
+#  coord_equal()
 ```
 
 
@@ -73,9 +77,9 @@ ggplot(d,aes(x=longitude,y=latitude))+
 
 Show tables, plots, etc. and describe them.
 
-```{r}
-hist(d$latitude)
-```
+#```{r}
+#hist(d$latitude)
+#```
 
 # Conclusions
 
