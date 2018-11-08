@@ -1,0 +1,7 @@
+"NY605"|3|"CLA"|"Clay spot"|A small area that has soil materials of higher clay content than typical for the map unit by a magnitude of 20 percent or more by volume. Typically .25 to 6 acres.|"180014"
+"NY605"|3|"GPI"|"Gravel pit"|An open excavation from which soil and underlying material have been removed and used without crushing, as a source of sand or gravel. Typically .25 to 6 acres.|"180015"
+"NY605"|3|"GRA"|"Gravelly spot"|A small area with soil materials having more small rock fragments than typical for the map unit by a magnitude of 15 percent or more by volume. Typically .25 to 6 acres.|"180016"
+"NY605"|3|"ROC"|"Rock outcrop"|Surface exposures of bedrock believed to be attached to a local geologic formation. Typically .25 to 5 acres.|"180017"
+"NY605"|3|"SAN"|"Sandy spot"|A small area that has soil materials of higher sand content (and has generally less than 10 percent clay) than typical for the map unit by a magnitude of 25 percent or more by volume. Typically .25 to 5 acres.|"180018"
+"NY605"|3|"SLP"|"Short, steep slope"|A relatively uniform area at least two slope classes steeper than the overall less sloping land surface.|"180019"
+"NY605"|3|"WET"|"Wet spot"|Somewhat poorly drained to poorly drained area that is at least 2 drainage classes wetter than the named soils in the surrounding map unit. Typically .25 to 5 acres.|"180020"
