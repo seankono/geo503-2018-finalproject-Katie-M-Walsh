@@ -37,15 +37,15 @@ This is the study area: Cattauragus Creek.  It flows into Lake Erie and affects 
 Load any required packages in a code chunk (you may need to install some packages):
 
 ```{r, message=F, warning=F}
-##library(raster)
-#library(sp)
-#library(rgdal)
-#library(ggplot2)
-#library(ggmap)
-#library(dplyr)
-#library(tidyr)
-#library(maps)
-#library(scales)
+library(raster)
+library(sp)
+library(rgdal)
+library(ggplot2)
+library(ggmap)
+library(dplyr)
+library(tidyr)
+library(maps)
+library(scales)
 # New Packages
 
 #library(rnoaa)
@@ -64,6 +64,7 @@ Load any required packages in a code chunk (you may need to install some package
 
 #library(spocc)
 knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compiling
+
 ```
 
 
